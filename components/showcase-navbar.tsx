@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const ShowcaseNavbar = () => {
+const Header = () => {
   return (
     <div
       className="
@@ -32,11 +32,11 @@ xl:w-4/5
     >
       <Link href="/">
       <Image
-        src="/logo/logo.webp"
+        src="/logo/logo.png"
         alt="Bird Logo"
         width={1000}
         height={1000}
-        className="w-28"
+        className="w-40"
       />
       </Link>
 
@@ -81,7 +81,7 @@ xl:w-4/5
       border-2 
       border-black 
       dark:border-white 
-           bg-[#121212] 
+           bg-[#0000FF] 
        text-white 
        transition 
        duration-200 
@@ -94,4 +94,4 @@ xl:w-4/5
   );
 };
 
-export default ShowcaseNavbar;
+export default Header;

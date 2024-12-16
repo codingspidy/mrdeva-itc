@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
+import Header from "@/components/showcase-navbar";
+import Footer from "@/components/footer";
 
 const font = Space_Grotesk({ subsets: ["latin"] });
 
@@ -28,10 +30,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={font.className}>
-
+        <Header />
         {children}
         <Analytics />
-
+        <Footer />
       </body>
     </html>
   );
