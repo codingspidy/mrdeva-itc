@@ -29,8 +29,7 @@ const Meeting = () => {
         <div className="md:w-2/5">
           <h1 className="text-4xl font-semibold pt-10   ">Let&apos;s Meet</h1>
           <p className="text-lg text-gray-500 py-4">
-            We are always excited to meet new people and discuss new projects.
-            Please feel free to book a meeting with us.
+            Whether you have questions about our services or want to schedule a consultation, Please feel free to book a meeting with us.
           </p>
 
           {[

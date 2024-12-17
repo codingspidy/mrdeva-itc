@@ -6,48 +6,48 @@ import Image from "next/image";
 const features = [
   {
     icon: "/icons/fast.svg",
-    title: "Fast Delivery",
+    title: "Excellence",
     description:
-      "1-2 weeks delivery for most projects. Call us for more information.",
+      "Striving for the highest standards in every service we provide.",
   },
   {
     icon: "/icons/design.svg",
-    title: "Design & Development",
+    title: "Innovation",
     description:
-      "We design and develop your website with the latest technologies and trends.",
+      "Embracing new ideas to deliver effective solutions.",
   },
+  // {
+  //   icon: "/icons/scalable.svg",
+  //   title: "Scalability + Maintenance ",
+  //   description: "We offer maintenance and scalability for all websites.",
+  // },
   {
-    icon: "/icons/scalable.svg",
-    title: "Scalability + Maintenance ",
-    description: "We offer maintenance and scalability for all websites.",
+    icon: "/icons/safe.svg",
+    title: "Integrity",
+    description:
+      "Building trust through transparency and honest communication.",
+  },
+  // {
+  //   icon: "/icons/analytics.svg",
+  //   title: "Analytics Tracking",
+  //   description: "Track your progress with our built in analytics",
+  // },
+
+  // {
+  //   icon: "/icons/flexible.svg",
+  //   title: "Dynamic Websites",
+  //   description: "We build dynamic solutions that are easy to manage.",
+  // },
+  {
+    icon: "/icons/support.svg",
+    title: "Customer Focus",
+    description:
+      "Putting our clients’ needs and aspirations at the forefront of our services.",
   },
   {
     icon: "/icons/team.svg",
     title: "Team of Experts",
     description: "A team of experts ready to help you, at all times.",
-  },
-  {
-    icon: "/icons/safe.svg",
-    title: "Secure Building",
-    description:
-      "Safe and secure building practices. To ensure your data is safe.",
-  },
-  {
-    icon: "/icons/analytics.svg",
-    title: "Analytics Tracking",
-    description: "Track your progress with our built in analytics",
-  },
-
-  {
-    icon: "/icons/flexible.svg",
-    title: "Dynamic Websites",
-    description: "We build dynamic solutions that are easy to manage.",
-  },
-  {
-    icon: "/icons/support.svg",
-    title: "24/7 Support",
-    description:
-      "We offer 24/7 support for all our clients. Call us for more information.",
   },
   {
     icon: "/icons/money.svg",
@@ -62,8 +62,7 @@ export function ShootingStarsAndStarsBackgroundDemo() {
       <h2 className="relative flex-col  z-10 text-3xl md:text-5xl md:leading-tight max-w-5xl mx-auto text-center tracking-tight font-medium bg-clip-text text-transparent bg-gradient-to-b from-neutral-400 via-white to-white flex items-center gap-2 ">
         Our guarantees to you.
         <p className="md:text-center   mx-auto  text-xl md:text-2xl text-gray-200">
-          We ensure the highest quality of work, with the fastest delivery
-          times.
+        To be a reliable consultancy partner, enhancing our clients’ growth and success through customized, solution-oriented services.
         </p>
       </h2>
 

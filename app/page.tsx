@@ -20,13 +20,13 @@ import LetsMakeThingsHappenSection from "@/components/ui/lets-make-things-happen
 
 const services = [
   {
-    icon: "/images/s_6.png",
+    icon: "/images/education.png",
     title: "Education Consultancy",
     description:
       "Paving the Way to Global Education Opportunities.",
   },
   {
-    icon: "/images/s_1.png",
+    icon: "/images/business.png",
     title: "Business Consultancy",
     description:
       "Tailored Business Strategies for Sustainable Growth.",
@@ -38,7 +38,7 @@ const services = [
   //     "Boost your brand's online presence with our social media marketing services",
   // },
   {
-    icon: "/images/s_3.png",
+    icon: "/images/travel.png",
     title: "Travel & Tourism Services",
     description:
       "Your Gateway to Exceptional Travel Experiences.",
@@ -50,7 +50,7 @@ const services = [
   //     "With our content creation services, we help businesses drive results",
   // },
   {
-    icon: "/images/s_2.png",
+    icon: "/images/it.png",
     title: "IT Consultancy Services",
     description:
       "Enabling Businesses with Cutting-Edge IT Solutions.",
@@ -59,12 +59,13 @@ const services = [
 
 export default function Home() {
   return (
+//     overflow-clip 
+//  inset-0 
+//  -z-10 h-full w-full bg-[#fafafa]
+//   bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)]
+//    bg-[size:14px_24px]
     <div
-      className="overflow-clip 
- inset-0 
- -z-10 h-full w-full bg-[#fafafa]
-  bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)]
-   bg-[size:14px_24px]"
+      className=""
     >
       {/* <Element
         name="top"
@@ -143,7 +144,7 @@ export default function Home() {
       </Element> */}
 
       <main className="md:pb-10">
-        <div className="md:px-0 mx-6 xl:w-4/5 2xl:w-[68%] md:mx-auto mt-14">
+        <div className="md:px-0 mx-6 xl:w-4/5 2xl:w-[68%] md:mx-auto pt-14">
           <AnimatedShinyTextDemo />
 
           <h1>
@@ -298,8 +299,8 @@ export default function Home() {
                   src={service.icon}
                   width={10000}
                   height={10000}
-                  className="object-contain bg-gray-100 p-4 w-full h-40 rounded-md"
-                  alt="image"
+                  className="object-contain bg-gray-100 p-4 w-full -mb-6 [&:not(:last-child)]:-mb-0"
+                  alt={service.title}
                 />
                 <h1 className="text-xl font-medium">{service.title}</h1>
                 <p className="text-gray-500">{service.description}</p>
@@ -313,7 +314,7 @@ export default function Home() {
         <ScrollBasedVelocityDemo />
       </section>
 
-      <Element name="process">
+      {/* <Element name="process">
         <main className="md:px-0 mx-6 md:mx-auto">
           <h1 className="text-3xl md:text-5xl md:text-center font-medium flex items-center gap-x-2 mx-auto justify-center">
             Our{" "}
@@ -356,20 +357,20 @@ export default function Home() {
           </div>
 
         </main>
-      </Element>
+      </Element> */}
 
       <section>
         <main className="md:flex items-center justify-center space-y-6 md:space-y-0 md:gap-x-20 xl:w-4/5 2xl:w-[68%] mx-auto px-6 md:px-0">
           <Image
-            src={"/logo/logo.png"}
+            src={"/images/client.jpg"}
             width={10000}
             height={10000}
             className=" md:w-1/3 rounded-md"
-            alt="image"
+            alt="Client Testimonial"
           />
           <div className="flex flex-col gap-y-5 md:w-1/2">
             <h1 className="text-lg md:text-2xl ">
-              &quot;We&apos;ve been working with Bird for over 2 years and
+              &quot;We&apos;ve been working with MR DEVA for over 1 year and
               they&apos;ve been amazing to work with. They&apos;ve helped us
               grow our business and we couldn&apos;t be happier with the
               results. &quot;
@@ -383,8 +384,8 @@ export default function Home() {
             </div>
 
             <span className="text-xl font-medium">
-              Jordan, Brisson <br />
-              CEO, Atlas Massage
+              Shahnoor Khan <br />
+              Manager, Shibli Hostel
             </span>
           </div>
         </main>

@@ -14,8 +14,7 @@ function LetsMakeThingsHappenSection() {
         </p>
 
         <p className="my-10 text-xl">
-          Contact us today to learn more about how our digital marketing
-          services can help your business grow and succeed online.
+        Whether you are looking to expand your business, pursue higher education abroad, integrate advanced IT solutions, or explore new travel destinations, MR Deva International is here to guide you every step of the way.
         </p>
 
         <Link
