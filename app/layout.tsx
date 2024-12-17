@@ -8,8 +8,8 @@ import Footer from "@/components/footer";
 const font = Space_Grotesk({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Bird | Design & Development Studio",
-  description: "Grow your business with Bird, a design & development studio.",
+  title: "MR Deva International Business and Consultancy Services",
+  description: "MR Deva International is your trusted partner for comprehensive consultancy and advisory services across multiple domains.",
   openGraph: {
     images: [
       {
